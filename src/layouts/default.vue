@@ -9,7 +9,7 @@
           alt="Vue Material Admin Template"
         />
         <v-toolbar-title class="ml-0 pl-3">
-          <span>Hexagonal</span>
+          <span>Alterra Academy</span>
         </v-toolbar-title>
       </v-toolbar>
       <v-list>
@@ -107,23 +107,13 @@ export default class DefaultLayout extends Vue {
     { header: 'Applications' },
     {
       icon: 'mdi-account',
-      title: 'User',
-      to: '/user',
-    },
-    {
-      icon: 'mdi-dog',
-      title: 'Dog',
-      to: '/dog',
-    },
-    {
-      icon: 'mdi-cat',
-      title: 'Cat',
-      to: '/cat',
+      title: 'Alta',
+      to: '/alta',
     },
   ]
 
   miniVariant: boolean = false
-  title: string = 'Vue Hexagonal'
+  title: string = 'Alterra Academy'
 
   logout() {}
 }
